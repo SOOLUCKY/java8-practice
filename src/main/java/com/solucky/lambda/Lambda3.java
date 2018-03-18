@@ -13,13 +13,13 @@ import java.util.function.Supplier;
  * Created by xiechunlu on 2018-03-18 下午4:40
  */
 
-public class Lambda3
+public class Lambda3 {
 
-@FunctionalInterface
-interface Fun {
-    void foo();
+    @FunctionalInterface
+    interface Fun {
+        void foo();
 
-}
+    }
 
     public static void main(String[] args) throws Exception {
 //        Predicates
