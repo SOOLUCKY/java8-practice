@@ -13,4 +13,7 @@ public class Person {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+    public Person() {
+    }
 }
