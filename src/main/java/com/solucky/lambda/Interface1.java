@@ -18,7 +18,7 @@ public class Interface1 {
          * @return
          */
         default double sqrt(int a) {
-            return sqrt(positive(a));
+            return java.lang.Math.sqrt(positive(a));
         }
 
         static int positive(int a) {
